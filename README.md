@@ -67,40 +67,6 @@ A modern, mobile-friendly website for a luxury apartment rental and shortlet bus
 
 Access your Sanity Studio at [http://localhost:3000/studio](http://localhost:3000/studio) or deploy it separately.
 
-## Project Structure
-
-\`\`\`
-luxury-stays/
-├── app/
-│   ├── page.tsx                 # Home page
-│   ├── apartments/
-│   │   ├── page.tsx            # Apartments listing
-│   │   └── [id]/
-│   │       └── page.tsx        # Apartment detail
-│   ├── about/
-│   │   └── page.tsx            # About page
-│   ├── contact/
-│   │   └── page.tsx            # Contact page
-│   ├── layout.tsx              # Root layout
-│   └── globals.css             # Global styles
-├── components/
-│   ├── navigation.tsx          # Navigation bar
-│   ├── footer.tsx              # Footer
-│   ├── apartment-card.tsx      # Apartment card component
-│   ├── featured-apartments.tsx # Featured apartments section
-│   ├── booking-calendar.tsx    # Booking calendar
-│   └── ui/                     # shadcn/ui components
-├── lib/
-│   ├── sanity.ts              # Sanity client and queries
-│   └── utils.ts               # Utility functions
-├── sanity/
-│   ├── schemaTypes/
-│   │   ├── apartment.ts       # Apartment schema
-│   │   └── index.ts           # Schema exports
-│   └── config.ts              # Sanity configuration
-└── public/                     # Static assets
-\`\`\`
-
 ## Environment Variables
 
 | Variable | Description | Required |
